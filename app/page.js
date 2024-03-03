@@ -10,7 +10,7 @@ import RoadMap from './roadMap';
 
 export default function Home() {
    return (
-      <main className="mb-5">
+      <main className="">
          <div className="mt-20 ">
             <Header />{' '}
          </div>
@@ -19,10 +19,11 @@ export default function Home() {
          <QuickStartGuard />
          <Shibasenomics />
          <RoadMap />
+         <Footer />
 
          {/* 
          <OurTeam />
-         <Footer /> */}
+      */}
       </main>
    );
 }
