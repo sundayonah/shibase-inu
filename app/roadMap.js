@@ -45,7 +45,7 @@ const RoadMap = () => {
          // }}
          >
             <div className="mx-auto max-w-5xl p-6  mt-20">
-               <div className="container mx-auto grid grid-cols-1 items-center gap-12">
+               <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
                   {/* <div className="flex flex-col justify-center items-center"></div> */}
                   <div className="flex flex-col justify-center items-center">
                      <h1 className="text-3xl text-[#201f54] font-bold">
@@ -55,6 +55,8 @@ const RoadMap = () => {
                         The road to dog biscuits
                      </p>
                   </div>
+
+                  <div></div>
                </div>
             </div>
          </div>

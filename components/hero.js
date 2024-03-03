@@ -6,7 +6,7 @@ import { LuMail } from 'react-icons/lu';
 const Hero = () => {
    return (
       <main id="home" className="container mx-auto max-w-5xl p-6 ">
-         <div className="grid grid-cols-1 mt-10  lg:grid-cols-2 ">
+         <div className="grid grid-cols-1 mt-10  lg:grid-cols-2 gap-4">
             {/* left side */}
             <div className="mt-16">
                <h1
@@ -48,8 +48,13 @@ const Hero = () => {
             </div>
 
             {/* left side */}
-            <div className="flex justify-center items-center">
-               <img src="/images/shibase.png" alt="" className="w-72 h-72" />
+            <div className="flex justify-center items-center mt-3">
+               <Image
+                  src="/images/shibase.png"
+                  alt=""
+                  width={400}
+                  height={100}
+               />
             </div>
          </div>
       </main>

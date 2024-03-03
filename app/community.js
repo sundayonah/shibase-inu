@@ -17,7 +17,7 @@ const Community = () => {
                   src="/images/communityImg.jpeg"
                   alt=""
                   className="rounded-md shadow-lg"
-                  width={600}
+                  width={700}
                   height={200}
                />
             </div>
