@@ -60,32 +60,34 @@ const QuickStartGuard = () => {
             <div className="flex justify-start items-center space-x-6 mt-6">
                <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#2d30f0] hover:bg-[#001cc4] transition-all duration-500 shadow-lg">
                   <a
-                     href="mailto:tbogdanov665@gmail.com "
+                     href="#"
                      target="_blank"
                      rel="nonreferrer"
                      className="text-white text-sm "
                   >
-                     Buy
+                     Buy at Launch
                   </a>
                   {/* <LuMail className="text-white  " /> */}
                </button>
                <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[##2d30f0] transition-all duration-500 shadow-lg ">
                   <a
-                     href="https://t.me/@tbog2"
+                     href="https://t.me/Shibase_inu"
                      target="_blank"
                      rel="nonreferrer"
-                     className="text-[#201f54] hover:text-[#fff]  text-sm "
+                     className="text-[#201f54]
+                     hover:text-[#2d30f0] text-sm "
                   >
+                     {' '}
                      Join now
                   </a>
                   {/* <FaTelegramPlane className="text-white" /> */}
                </button>
                <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[##2d30f0] transition-all duration-500 shadow-lg ">
                   <a
-                     href="https://t.me/@tbog2"
+                     href="#"
                      target="_blank"
                      rel="nonreferrer"
-                     className="text-[#201f54] hover:text-[#fff]  text-sm "
+                     className="text-[#201f54] hover:text-[#2d30f0]  text-sm "
                   >
                      Chart
                   </a>

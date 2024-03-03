@@ -25,7 +25,10 @@ const Community = () => {
             <video
                width="640"
                height="360"
+               autoplay
                controls
+               loop
+               // muted
                className="rounded-md shadow-lg mt-5"
             >
                <source src="/images/video.mp4" type="video/mp4" />
@@ -45,11 +48,13 @@ const Community = () => {
                </button>
                <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[#fff] hover:bg-[#2d30f0] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                   <a
-                     href="https://t.me/@tbog2"
+                     href="https://t.me/Shibase_inu"
                      target="_blank"
                      rel="nonreferrer"
-                     className="text-[#201f54] hover:text-[#fff]  text-sm "
+                     className="text-[#201f54]
+                     hover:text-[#fff] text-sm "
                   >
+                     {' '}
                      Join now
                   </a>
                   {/* <FaTelegramPlane className="text-white" /> */}

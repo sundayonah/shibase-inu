@@ -9,7 +9,7 @@ import Image from 'next/image';
 const Header = () => {
    const menuItems = [
       { name: 'Community', url: '#community' },
-      { name: 'shibasenomics', url: '#shibasenomics' },
+      { name: 'Shibasenomics', url: '#shibasenomics' },
       { name: 'Road Map', url: '#roadMap' },
    ];
 
@@ -45,7 +45,7 @@ const Header = () => {
                            </Link>
                         </div>
                      ))}
-                     <button className="text-white bg-[##2d30f0] px-5 py-2 rounded-md">
+                     <button className="text-white bg-[#2d30f0] px-5 py-2 rounded-md">
                         Join Community
                      </button>
                   </div>
@@ -59,7 +59,7 @@ const Header = () => {
                            </Link>
                         </div>
                      ))}
-                     <button className="text-white bg-[##2d30f0] px-5 py-2 rounded-md">
+                     <button className="text-white bg-[#2d30f0] px-5 py-2 rounded-md">
                         <a href="https://t.me/Shibase_inu" target="_blank">
                            Join Community
                         </a>
