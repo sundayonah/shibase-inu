@@ -55,7 +55,7 @@ const RoadMap = () => {
                </div>
 
                <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
-                  <div className="flex  flex-col justify-center ease-in-out items-center rounded-lg shadow-lg">
+                  <div className=" flex  flex-col justify-center ease-in-out items-center rounded-lg shadow-lg hover:shadow-xl">
                      <Image
                         src="/images/newPuppy.jpg"
                         alt=""
@@ -70,7 +70,7 @@ const RoadMap = () => {
                         <p>-Listing CMC and CG</p>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center items-center rounded-lg shadow-lg">
+                  <div className="flex  flex-col justify-center ease-in-out items-center rounded-lg shadow-lg hover:shadow-xl">
                      <Image
                         src="/images/adolosent.jpg"
                         alt=""
@@ -84,7 +84,7 @@ const RoadMap = () => {
                         <p>-Marketing Base chain</p>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center items-center  rounded-lg shadow-lg">
+                  <div className="flex  flex-col justify-center ease-in-out items-center rounded-lg shadow-lg hover:shadow-xl">
                      <Image
                         src="/images/adult.jpg"
                         alt=""
@@ -97,7 +97,7 @@ const RoadMap = () => {
                         <p>-NFTs Creation</p>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center items-center rounded-lg shadow-lg">
+                  <div className="flex  flex-col justify-center ease-in-out items-center rounded-lg shadow-lg hover:shadow-xl">
                      <Image
                         src="/images/senior.jpg"
                         alt=""

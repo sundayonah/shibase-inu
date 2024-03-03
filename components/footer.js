@@ -16,10 +16,11 @@ const Footer = () => {
       { name: 'Road Map', url: '#roadMap' },
    ];
    return (
-      <main className="container mx-auto max-w-5xl p-6">
+      <main className="container mx-auto max-w-5xl p-6 ">
+         <hr />
          {/* <div className="grid grid-cols-1 mt-10  lg:grid-cols-3 "> */}
          <div className="flex justify-around items-center">
-            <div>
+            <div className="mt-4">
                <Image
                   src="/images/shibase.png"
                   alt=""
@@ -39,16 +40,10 @@ const Footer = () => {
             </div>
             <div className="flex gap-3">
                <a href="https://t.me/Shibase_inu">
-                  <FaTelegramPlane className="text-[#4a3aff] w-6 h-6" />
+                  <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
                </a>
                <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
-                  <FaTwitter className="text-[#4a3aff] w-6 h-6" />
-               </a>
-               <a href="">
-                  <FaLinkedinIn className="text-[#4a3aff] w-6 h-6" />
-               </a>
-               <a href="">
-                  <FaInstagramSquare className="text-[#4a3aff] w-6 h-6" />
+                  <FaTwitter className="text-[#2d30f0] w-6 h-6" />
                </a>
             </div>
          </div>

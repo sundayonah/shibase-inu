@@ -32,7 +32,7 @@ const Community = () => {
                Your browser does not support the video tag.
             </video>
             <div className="flex justify-start items-center space-x-6 mt-6">
-               <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[#4a3aff] hover:bg-[#001cc4] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
+               <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[##2d30f0] hover:bg-[#001cc4] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                   <a
                      href="mailto:tbogdanov665@gmail.com "
                      target="_blank"
@@ -43,7 +43,7 @@ const Community = () => {
                   </a>
                   {/* <LuMail className="text-white  " /> */}
                </button>
-               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[#fff] hover:bg-[#4a3aff] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
+               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[#fff] hover:bg-[##2d30f0] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                   <a
                      href="https://t.me/@tbog2"
                      target="_blank"

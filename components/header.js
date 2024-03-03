@@ -45,7 +45,7 @@ const Header = () => {
                            </Link>
                         </div>
                      ))}
-                     <button className="text-white bg-[#4a3aff] px-5 py-2 rounded-md">
+                     <button className="text-white bg-[##2d30f0] px-5 py-2 rounded-md">
                         Join Community
                      </button>
                   </div>
@@ -59,8 +59,10 @@ const Header = () => {
                            </Link>
                         </div>
                      ))}
-                     <button className="text-white bg-[#4a3aff] px-5 py-2 rounded-md">
-                        Join Community
+                     <button className="text-white bg-[##2d30f0] px-5 py-2 rounded-md">
+                        <a href="https://t.me/Shibase_inu" target="_blank">
+                           Join Community
+                        </a>
                      </button>
                   </div>
                )}

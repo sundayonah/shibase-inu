@@ -58,7 +58,7 @@ const QuickStartGuard = () => {
             </div>
 
             <div className="flex justify-start items-center space-x-6 mt-6">
-               <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#4a3aff] hover:bg-[#001cc4] transition-all duration-500 shadow-lg">
+               <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#2d30f0] hover:bg-[#001cc4] transition-all duration-500 shadow-lg">
                   <a
                      href="mailto:tbogdanov665@gmail.com "
                      target="_blank"
@@ -69,7 +69,7 @@ const QuickStartGuard = () => {
                   </a>
                   {/* <LuMail className="text-white  " /> */}
                </button>
-               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[#4a3aff] transition-all duration-500 shadow-lg ">
+               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[##2d30f0] transition-all duration-500 shadow-lg ">
                   <a
                      href="https://t.me/@tbog2"
                      target="_blank"
@@ -80,7 +80,7 @@ const QuickStartGuard = () => {
                   </a>
                   {/* <FaTelegramPlane className="text-white" /> */}
                </button>
-               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[#4a3aff] transition-all duration-500 shadow-lg ">
+               <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-2  bg-[#fff] hover:bg-[##2d30f0] transition-all duration-500 shadow-lg ">
                   <a
                      href="https://t.me/@tbog2"
                      target="_blank"
