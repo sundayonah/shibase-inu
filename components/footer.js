@@ -1,13 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import {
-   FaTwitter,
-   FaLinkedinIn,
-   FaFacebookF,
-   FaInstagramSquare,
-   FaTelegramPlane,
-} from 'react-icons/fa';
+import { FaTelegramPlane } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
@@ -39,7 +33,7 @@ const Footer = () => {
                   </div>
                ))}
             </div> */}
-            <div className="flex gap-3">
+            <div className="flex">
                <a href="https://t.me/Shibase_inu">
                   <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
                </a>

@@ -5,6 +5,8 @@ import React, { useState } from 'react';
 import { TiThMenu } from 'react-icons/ti';
 import { IoMdClose } from 'react-icons/io';
 import Image from 'next/image';
+import { FaTelegramPlane } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Header = () => {
    const menuItems = [
@@ -48,23 +50,41 @@ const Header = () => {
                      <button className="text-white bg-[#2d30f0] px-5 py-2 rounded-md">
                         Join Community
                      </button>
+                     <div className="flex justify-center items-center gap-3">
+                        <a href="https://t.me/Shibase_inu">
+                           <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
+                        </a>
+                        <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
+                           <FaXTwitter className="text-[#2d30f0] w-6 h-6" />
+                        </a>
+                     </div>
                   </div>
                ) : (
-                  // desktop view
-                  <div className="hidden lg:flex space-x-5 justify-center items-center">
-                     {menuItems.map((menu) => (
-                        <div key={menu.name}>
-                           <Link href={menu.url} className="text-[#201f54]">
-                              {menu.name}
-                           </Link>
+                  <>
+                     <div className="hidden lg:flex space-x-5 justify-center items-center">
+                        {menuItems.map((menu) => (
+                           <div key={menu.name}>
+                              <Link href={menu.url} className="text-[#201f54]">
+                                 {menu.name}
+                              </Link>
+                           </div>
+                        ))}
+                        <button className="text-white bg-[#2d30f0] px-5 py-2 rounded-md">
+                           <a href="https://t.me/Shibase_inu" target="_blank">
+                              Join Community
+                           </a>
+                        </button>
+
+                        <div className="flex gap-3">
+                           <a href="https://t.me/Shibase_inu">
+                              <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
+                           </a>
+                           <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
+                              <FaXTwitter className="text-[#2d30f0] w-6 h-6" />
+                           </a>
                         </div>
-                     ))}
-                     <button className="text-white bg-[#2d30f0] px-5 py-2 rounded-md">
-                        <a href="https://t.me/Shibase_inu" target="_blank">
-                           Join Community
-                        </a>
-                     </button>
-                  </div>
+                     </div>
+                  </>
                )}
                <button
                   className=" lg:hidden text-gray-500 focus:outline-none"
