@@ -39,16 +39,16 @@ const Footer = () => {
             </div>
             <div className="flex gap-3">
                <a href="https://t.me/Shibase_inu">
-                  <FaTelegramPlane className="text-[#4a3aff] " />
+                  <FaTelegramPlane className="text-[#4a3aff] w-6 h-6" />
+               </a>
+               <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
+                  <FaTwitter className="text-[#4a3aff] w-6 h-6" />
                </a>
                <a href="">
-                  <FaTwitter className="text-[#4a3aff] " />
+                  <FaLinkedinIn className="text-[#4a3aff] w-6 h-6" />
                </a>
                <a href="">
-                  <FaLinkedinIn className="text-[#4a3aff] " />
-               </a>
-               <a href="">
-                  <FaInstagramSquare className="text-[#4a3aff] " />
+                  <FaInstagramSquare className="text-[#4a3aff] w-6 h-6" />
                </a>
             </div>
          </div>

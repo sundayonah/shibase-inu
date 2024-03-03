@@ -12,7 +12,7 @@ const Community = () => {
                </h1>
             </div>
 
-            <div className="flex justify-center items-center mt-8">
+            {/* <div className="flex justify-center items-center mt-8">
                <Image
                   src="/images/communityImg.jpeg"
                   alt=""
@@ -20,7 +20,17 @@ const Community = () => {
                   width={700}
                   height={200}
                />
-            </div>
+            </div> */}
+
+            <video
+               width="640"
+               height="360"
+               controls
+               className="rounded-md shadow-lg mt-5"
+            >
+               <source src="/images/video.mp4" type="video/mp4" />
+               Your browser does not support the video tag.
+            </video>
             <div className="flex justify-start items-center space-x-6 mt-6">
                <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-4 py-3  bg-[#4a3aff] hover:bg-[#001cc4] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                   <a
