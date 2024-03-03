@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize the scrollbar thumb (the draggable part) */
+body::-webkit-scrollbar-thumb {
+   background-color: #D3D3D3; /* Change the color of the thumb */
+   border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+/* Customize the scrollbar track (the background) */
+body::-webkit-scrollbar-track {
+   background-color: #f2f1ff;
+}
+/* Customize the scrollbar's width and height */
+body::-webkit-scrollbar {
+   width: 8px; /* Set the width of the scrollbar */
+   height: 8px; /* Set the height of the scrollbar */
+}
+
