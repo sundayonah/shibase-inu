@@ -33,12 +33,12 @@ const Footer = () => {
                   </div>
                ))}
             </div> */}
-            <div className="flex">
+            <div className="flex gap-3">
                <a href="https://t.me/Shibase_inu">
-                  <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
+                  <FaTelegramPlane className="text-[#2d30f0] w-8 h-8 shadow-lg rounded-full p-1 transition-all duration-500 transform hover:translate-y-[-3px]" />
                </a>
                <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
-                  <FaXTwitter className="text-[#2d30f0] w-6 h-6" />
+                  <FaXTwitter className="text-[#2d30f0] w-8 h-8 shadow-lg rounded-full p-1 transition-all duration-500 transform hover:translate-y-[-3px]" />
                </a>
             </div>
          </div>

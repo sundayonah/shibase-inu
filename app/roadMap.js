@@ -53,8 +53,8 @@ const RoadMap = () => {
                      The road to dog biscuits
                   </p>
                </div>
-               <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 mt-6">
-                  <div className="flex  flex-col justify-center ease-in-out items-center">
+               <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 mt-6 gap-2 ">
+                  <div className="flex  flex-col justify-center ease-in-out items-center  transition-all duration-500 transform hover:translate-y-[-5px]">
                      <span className="text-center text-[#201f54]">Puppy</span>
                      <div className=" rounded-lg shadow-lg hover:shadow-xl p-2 px-5">
                         <Image
@@ -72,7 +72,7 @@ const RoadMap = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center ease-in-out items-center">
+                  <div className="flex  flex-col justify-center ease-in-out items-center transition-all duration-500 transform hover:translate-y-[-5px]">
                      <span className="text-center text-[#201f54]">
                         adolosent
                      </span>
@@ -91,7 +91,7 @@ const RoadMap = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center ease-in-out items-center">
+                  <div className="flex  flex-col justify-center ease-in-out items-center transition-all duration-500 transform hover:translate-y-[-5px]">
                      <span className="text-center text-[#201f54]">Adult</span>
                      <div className=" rounded-lg shadow-lg hover:shadow-xl p-1.5">
                         <Image
@@ -107,7 +107,7 @@ const RoadMap = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="flex  flex-col justify-center ease-in-out items-center">
+                  <div className="flex  flex-col justify-center ease-in-out items-center transition-all duration-500 transform hover:translate-y-[-5px]">
                      <span className="text-center text-[#201f54]">Senior</span>
                      <div className=" rounded-lg shadow-lg hover:shadow-xl p-1.5">
                         <Image

@@ -51,10 +51,18 @@ const Header = () => {
                         Join Community
                      </button>
                      <div className="flex justify-center items-center gap-3">
-                        <a href="https://t.me/Shibase_inu">
+                        <a
+                           href="https://t.me/Shibase_inu"
+                           target="_blank"
+                           rel="nonreferrer"
+                        >
                            <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
                         </a>
-                        <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
+                        <a
+                           href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35"
+                           target="_blank"
+                           rel="nonreferrer"
+                        >
                            <FaXTwitter className="text-[#2d30f0] w-6 h-6" />
                         </a>
                      </div>
@@ -76,10 +84,18 @@ const Header = () => {
                         </button>
 
                         <div className="flex gap-3">
-                           <a href="https://t.me/Shibase_inu">
+                           <a
+                              href="https://t.me/Shibase_inu"
+                              target="_blank"
+                              rel="nonreferrer"
+                           >
                               <FaTelegramPlane className="text-[#2d30f0] w-6 h-6" />
                            </a>
-                           <a href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35">
+                           <a
+                              href="https://x.com/Shibaseinu?t=uSP0ko7DBHNtRWmfJ3B5BQ&s=35"
+                              target="_blank"
+                              rel="nonreferrer"
+                           >
                               <FaXTwitter className="text-[#2d30f0] w-6 h-6" />
                            </a>
                         </div>

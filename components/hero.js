@@ -1,14 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaTelegramPlane } from 'react-icons/fa';
-import { LuMail } from 'react-icons/lu';
 
 const Hero = () => {
    return (
-      <main id="home" className="container mx-auto max-w-5xl p-6 ">
+      <main id="home" className="container max-w-5xl  mx-auto p-6">
          <div className="grid grid-cols-1 mt-10  lg:grid-cols-2 gap-4">
             {/* left side */}
-            <div className="mt-16">
+            <div className="">
                <h1
                   style={{ fontSize: '3rem', lineHeight: '3.5rem' }}
                   className=" text-[#201f54] md:text-lg leading-relaxed px-3"
@@ -24,7 +22,7 @@ const Hero = () => {
                <div className="flex justify-start items-center space-x-6 mt-6">
                   <button className="flex justify-center items-center gap-x-3 border rounded-2xl px-3 py-2  bg-[#2d30f0] hover:bg-[#001cc4] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                      <a
-                        href="mailto:tbogdanov665@gmail.com "
+                        href="#"
                         target="_blank"
                         rel="nonreferrer"
                         className="text-white  text-sm "
@@ -35,7 +33,7 @@ const Hero = () => {
                   </button>
                   <button className=" flex justify-center items-center gap-x-3 border rounded-2xl px-3 py-2  bg-[#fff] hover:bg-[#2d30f0] transition-all duration-500 shadow-lg transform hover:translate-y-[-3px]">
                      <a
-                        href="https://t.me/@tbog2"
+                        href="#"
                         target="_blank"
                         rel="nonreferrer"
                         className="text-[#201f54] hover:text-[#fff]  text-sm "
@@ -52,7 +50,7 @@ const Hero = () => {
                <Image
                   src="/images/shibase.png"
                   alt=""
-                  width={400}
+                  width={300}
                   height={100}
                />
             </div>
