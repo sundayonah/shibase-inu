@@ -1,37 +1,7 @@
 import React from 'react';
-import { FaTelegramPlane } from 'react-icons/fa';
-import { LuMail } from 'react-icons/lu';
-import { BsDot } from 'react-icons/bs';
 import Image from 'next/image';
 
 const RoadMap = () => {
-   const shibase = [
-      {
-         id: 1,
-         icon: '/images/star.svg',
-         percent: '0%',
-         text: 'Tax',
-      },
-      {
-         id: 2,
-         icon: '/images/phone.svg',
-         percent: '1B',
-         text: 'SHibase tokens',
-      },
-      {
-         id: 3,
-         icon: '/images/user.svg',
-         percent: '100%',
-         text: 'Community growth',
-      },
-      {
-         id: 4,
-         icon: '/images/growth.svg',
-         percent: '1000x',
-         text: 'ROI potential',
-      },
-   ];
-
    // #280051
    // #5C0F57
    // 09123522324

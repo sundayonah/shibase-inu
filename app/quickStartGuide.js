@@ -99,7 +99,7 @@ const QuickStartGuard = () => {
                {guides.map(({ id, name, text }) => (
                   <div
                      key={id}
-                     className={`flex justify-between items-start p-5 m-3 rounded-xl shadow-lg transition-all duration-500 ease-out hover:ease-in  ${
+                     className={`flex justify-between items-start p-5 m-3 rounded-xl shadow-lg transition-all duration-500 ease-out hover:ease-in transform hover:translate-y-[-5px]  ${
                         visibleText[id] ? 'border border-blue-600' : ''
                      }`}
                   >
